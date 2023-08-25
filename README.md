@@ -85,10 +85,3 @@ Transcoders:
 3. Confirm that is working: `docker-compose logs -f --tail=100 script`
 
 **Note** that inside docker-compose file, the network is in host mode to be able to call localhost as the real host and not as the container. If your orchestrator is dockerized, you would need to remove this and point your Orchestrator container using the container IP or the docker compose service name.
-
-Buy me a coffee:  <br />
-LPT (Arbitrum): `0xE32971e1a55152A94Fa55DFb80ACdC4bA55679C3`  <br />
-AETH (Arbitrum): `0xE32971e1a55152A94Fa55DFb80ACdC4bA55679C3` <br />
-ETH:  `0xE32971e1a55152A94Fa55DFb80ACdC4bA55679C3` <br />
-DOGE: `D8mJBFdSQscQKce2vnPsKr4dC4sFvypBfU`  <br />
-
